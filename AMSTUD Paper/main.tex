@@ -1,0 +1,138 @@
+\documentclass[12pt]{article}
+
+%
+%Margin - 1 inch on all sides
+%
+\usepackage[letterpaper]{geometry}
+\usepackage{times}
+\geometry{top=1.0in, bottom=1.0in, left=1.0in, right=1.0in}
+
+
+
+
+%Doublespacing
+%
+\usepackage{setspace}
+\doublespacing
+
+%
+%Rotating tables (e.g. sideways when too long)
+%
+\usepackage{rotating}
+
+
+%
+%Fancy-header package to modify header/page numbering (insert last name)
+%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{} 
+\chead{} 
+\rhead{Anand \thepage} 
+\lfoot{} 
+\cfoot{} 
+\rfoot{} 
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt} 
+%To make sure we actually have header 0.5in away from top edge
+%12pt is one-sixth of an inch. Subtract this from 0.5in to get headsep value
+\setlength\headsep{0.333in}
+
+\usepackage[style=mla]{biblatex}
+\addbibresource{references.bib}  % your .bib file name
+
+
+\begin{document}
+\begin{flushleft}
+
+%%%%First page name, class, etc
+Keshav Anand\\
+Russell/Alexander\\
+American Studies\\
+31 October 2025\\
+
+
+%%%%Title
+\begin{center}
+A Synthesis of Research on the Efficacy of Narrative Assessment in Secondary Education
+\end{center}
+
+
+%%%%Changes paragraph indentation to 0.5in
+\setlength{\parindent}{0.5in}
+%%%%Begin body of paper here
+
+
+%TODO: ADD MLA PAGES FOR ALL CITATIONS
+
+Assessment remains a critical component of education, serving as a means to evaluate student progress and mastery over a given subject.
+Traditionally, quantitative assessments (e.g. multiple-choice tests, standardized exams) have been preferred for their objectivity and ease of grading \parencite{Lamiell2018}.
+Even today, many standardized tests and important exams are primarily quantitative in nature, with American exams such as the SAT and ACT having recently undergone changes
+to remove or optionalize essay components \parencite{McGrath2021_SATessay,Semos2024_ACTwriting}. While quantitative assessments have their merits,
+their defined scope limits their ability to capture a student's critical thinking and creativity \parencite{KU200970}.
+Conversely, narrative assessments (e.g. essays, projects, presentations) with subjective grading
+\footnote{Structured written responses scored with a non-flexible rubric, such as numerical math problems or essay questions with rigid crieteria, are not considered narrative assessments in this context.}
+allow students to express
+understanding in a more holistic and authentic manner \parencite{KU200970}. Recent developments in educational trends due to the rise of Artificial Intelligence (AI)
+following the COVID-19 pandemic have led many educators to reconsider their methods, accelerating changes in curriculum and assessment \parencite{Kamalov2023New}.
+Hence, this paper synthesizes research on the efficacy of subjective narrative as
+sessment in secondary education when compared
+to traditional quantitative assessments.\\
+
+A central advantage of narrative assessments is their ability to allow students to demonstrate higher-order thinking skills.
+While quantitative assessments often reward students for accurate recall of facts,
+narrative assessments provide a means to distinguish a satisfactory understanding from a nuanced comprehension.
+This is particularly important to distinguish gifted students; while a standard 4-option multiple-choice question gives full credit for knowing the tested concept (and a 25\% change of guessing correctly),
+both the student who barely understands a concept and the student who has mastered it receive the same score \parencite{Liu2023Multiple-choice}.
+University professors second this notion, agreeing that multiple-choice questions (MCQs) are limited in their ability to assess higher-order cognition \parencite{Liu2023Multiple-choice}.
+In the context of a secondary education setting, the impact of narrative assessments are particularly pronounced due to the focus on knowledge retention.
+Failing to properly distinguish between levels of understanding can inadvertently incentivize surface-level memorization,
+where students fail to recall basic information learned in a class after the subject is no longer tested \parencite{Kooloos2019The}.
+In fact, \cite{Kooloos2019The} found that students lost about 33\% of gained knowledge when learning is geared towards short-term recall.
+Known as the "forgetting curve," this rapid loss of information can only be mitigated by constant revisiting of material or understanding concepts at a deeper level \parencite{Kooloos2019The}.
+Due to the open-ended nature of narrative assessments, students are encouraged to engage with material more deeply,
+and when educators reward complex understanding, students are incentivized to internalize concepts rather than memorize facts \parencite{KU200970}.
+Additionally, these benefits are compounded in secondary education as it promotes creativity, which is beneficial for growth and development at younger ages \parencite{Redó2021Dimensions}.
+When considering that growth and development is the sole focus of secondary education itself, the creativity garnered by narrative assessments is an appealing option for educators.\\
+
+Another vital component of narrative assessments is their ability to thoroughly evaluate student communication skills.
+In an increasingly interconnected world, the ability to effectively communicate ideas is paramount,
+with narrative assessments providing a platform for students to hone these skills \parencite{WILBY20191164}.
+In fact, \cite{WILBY20191164} found that narrative assessments even have merits in STEM (Science, Technology, Engineering, and Mathematics) subjects,
+where they researchers found that narrative assessments have use in the medical industry for summative decision making.
+Due to the ubiquitous importance of writing and communication skills across disciplines, educators' primary rationale for using narrative assessments
+lies in their ability to foster these skills \parencite{Wilby2019Discriminating}.
+These motives are backed by scientific evidence beyond communication skills, as it has been repeatedly proven that the ability to communicate a certain concept
+— especially when supported by metacognitive strategies such as planning, monitoring, and evaluation —
+is correlated with mastery of that concept \parencite{Hamzah2022Systematic}. While narrative assessments promote such communication skills,
+students who are not proficient writers may be disadvantages. \cite{Lo2021Assessing} found that assessing students through essays
+requires an implied mastery of the English language, which may unfairly penalize non-native speakers. 
+This issue is particularly sensitive in secondary education, as the vast percentage of immigrants and non-native speakers
+will have their course evaluation depend on their English proficiency. Hence, while narrative assessments promote communication skills,
+educators must be wary of potential biases against non-native speakers.\\
+
+While proponents of narrative assessments highlight their benefits, critics focus on the subjectivity of such assessments as a major flaw.
+Unsurprisingly, bias and subjectivity is a primary complaint of students, where a majority often perceive essays and projects as unfairly graded \parencite{Bullock2019In}.
+These complains are not without merit, as inconsistencies are bound in subjective evaluation due to educator bias and differences between sections and educators. 
+For example, the same history course can be taught by multiple teachers, where each teacher may have different expectations for essay responses. 
+In fact, \cite{LOPERAOQUENDO2024101992} found that inter-rater reliability (IRR) for essay grading was often low,
+with even rubric-based grading systems failing to ensure consistency between graders.
+This inconsistency can lead to student frustration and a perception of unfairness, which can negatively impact student motivation and engagement.
+While many focus on the negative aspects of subjectivity, some researchers argue that subjectivity can be beneficial in certain contexts.
+For example, positive expectation bias — where education hold higher expectations for certain students — can lead to improved performance
+due to positive reinforcement of a student's potential and abilities \parencite{Boer2010Sustainability}.
+Positive expectation bias is also useful in flattening performance outliers;
+for example, a student having a bad day during an assessment date may be unfairly penalized in a quantitative assessment,
+while positive expectation bias allows teachers to understand and compensate for performative outliers.
+This not only benefits gifted students but also generally weaker students, and studies show
+that teachers sometimes subconsciously use shifting standards to leniently grade struggling (yet hardworking) students \parencite{Gil-Hernández_2024}.\\
+
+
+
+\newpage
+\printbibliography[title={Works Cited}]
+
+
+\end{flushleft}
+\end{document}
+\}
