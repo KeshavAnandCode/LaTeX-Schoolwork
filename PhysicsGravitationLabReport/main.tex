@@ -499,7 +499,7 @@ This new relationship is graphed in the figure below:
     \label{fig:rgraph}
 \end{figure}
 
-The shown trendline suggests a proprtional fit to $\frac{1}{r^2}$ as follows:
+The shown trendline suggests a proportional fit to $\frac{1}{r^2}$ as follows:
 
 \[
 F_g \propto \frac{1}{r^2},
@@ -512,7 +512,7 @@ F_g = k_4 \times \frac{1}{r^2}.
 \label{eq:finalEq}
 \end{equation}
 
-When combined with equation \ref{eq:m1and2}, NLUG pops out, and the proprtionality constant can be denotes as $G$:
+When combined with equation \ref{eq:m1and2}, NLUG pops out, and the proportionality constant can be denotes as $G$:
 
 
 \begin{equation}
@@ -547,6 +547,32 @@ the force acting on the block can be calculated using Newton's Second Law, which
 
 \section*{Conclusion}
 
+\subsection*{Summary}
+Revisiting the four objectives, the intended goals of this lab were to find the relationship between object masses, distance, and the resulting gravitational force,
+thereby deriving NLUG and solving for $G$. The relationship between masses and the gravitational force was found in equation \ref{eq:m1and2}:
+
+\begin{equation}
+F_g = k_3 (m_1 \times m_2). \tag{\ref{eq:m1and2}}
+\end{equation}
+
+The second objective of finding the relationship between $F_g$ and the distance between the objects is captured in equation \ref{eq:finalEq}:
+
+\begin{equation}
+F_g = k_4 \times \frac{1}{r^2}. \tag{\ref{eq:finalEq}}
+\end{equation}.
+
+The third objective was met by calculating $G = 6.67 \times 10^{-11}\,\text{N\,m}^2\text{/kg}^2$, and the fourth objective was met
+by deriving NLUG in equation \ref{eq:solvedNLUG}:
+
+\begin{equation}
+F_g = G \frac{m_1 m_2}{r^2}, \quad 
+G = 6.67 \times 10^{-11}\,\text{N\,m}^2\text{/kg}^2  \tag{\ref{eq:solvedNLUG}}
+\end{equation}
+
+The final equation \ref{eq:solvedNLUG} showed the relationship learned in this lab, that gravitation force is proportional to
+the multiplied masses of the two objects involved divided by the square of the distance between their centers of masses.
+
+
 \subsection*{Error Analysis}
 
 One major source of error within this lab is the assumption that the simulation is entirely functional in simulating gravitational attraction.
@@ -557,6 +583,18 @@ calculated force and gravitational constant. Moreover, the simulation only offer
 the scale (particularly for distance) is free to move at any point in the screen. Hence, the distance intervals may be slightly inaccurate
 as they depend on teh accurate placing of the two objects based on teh scale. Offering continuos distance inputs would offer a slight improvement.
 Due to the relatively high number of trials conducted, these errors are relatively negligible in finding proportionalities; however, they can significantly impact the calculation of $G$.
-Hence, $G$ was calculated using the default values for distance, ensuring that there would be no innacuracy of the data point.
+Hence, $G$ was calculated using the default values for distance, ensuring that there would be no inaccuracy of the data point. Finally, the simulation
+uses uniform spheres with a seemingly uniform density. This leads to an unproved generalization that NLUG works for two objects that do not have uniform density (or molecular makeup).
+
+
+\subsection*{Critiques and Future Applications}
+
+The primary critique regarding this lab is that the simulation itself does not render objects as they are in real life,
+but rather uses NLUG to calculate the output. In other words, NLUG is derived from a simulation where NLUG is already built-in, which
+nearly invalidates that the simulation as a valid source for data. Using physical objects comes with the additional limitation of human error
+and external forces; however, they would more accurately showcase the true relationship of NLUG without a biased pre-coded simulation.\\\\
+
+
+
 
 \end{document}
