@@ -70,13 +70,13 @@
 
 
 \section*{Objectives}
-Use the \href{http://phet.colorado.edu/sims/html/gravity-force-lab/latest/gravity-force-lab_en.html}{Gravitational force simulation} to determine the dependence of the gravitational force on the mass of the objects involved.\\
 
-Use the same simulation to determine the dependence of the gravitational force on the distance between the two masses.\\
-
-Determine the experimental value of the universal gravitational constant (G). (This is what relates the gravitational force to the masses and distance rather than being these proportional. G must be included in your final equation.)\\
-
-Determine an Equation for the Universal Law of Gravitation based on your data, using only symbols.
+\begin {itemize}
+    \item Use the \href{http://phet.colorado.edu/sims/html/gravity-force-lab/latest/gravity-force-lab_en.html}{Gravitational force simulation} to determine the dependence of the gravitational force on the mass of the objects involved.
+    \item Use the same simulation to determine the dependence of the gravitational force on the distance between the two masses.
+    \item Determine the experimental value of the universal gravitational constant (G). (This is what relates the gravitational force to the masses and distance rather than being these proportional. G must be included in your final equation.)
+    \item Determine an Equation for the Universal Law of Gravitation based on your data, using only symbols.
+\end {itemize}
 
 \section*{Introduction}
 
@@ -375,7 +375,7 @@ While all data was collected jointly, the five separate experimental setups can 
 \end{tabularx}
 \end{table}
 
-\subsection*{Analysis}
+\subsection*{Discussion and Analysis}
 
 The first major observation that can be made using the raw data is that for all data points (in all 5 tables), 
 \textbf{$F_{1\rightarrow2}$ (N)} = \textbf{$F_{2\rightarrow1}$ (N)}. This observation is \textbf{Newton's Third Law},
@@ -543,13 +543,20 @@ G = 6.67 \times 10^{-11}\,\text{N\,m}^2\text{/kg}^2
 \label{eq:solvedNLUG}
 \end{equation}
 
-et force acting on the block can be calculated using Newton's Second Law, which can be used to calculate the frictional coefficients.
+the force acting on the block can be calculated using Newton's Second Law, which can be used to calculate the frictional coefficients.
 
 \section*{Conclusion}
 
 \subsection*{Error Analysis}
 
-
-
+One major source of error within this lab is the assumption that the simulation is entirely functional in simulating gravitational attraction.
+In an real-world scenario, there are other external forces (friction, air resistance, electromagnetic forces) that can impact the gravitational attraction,
+and if the simulation doesn't not properly isolate the gravitational force, the final relationship and the calculated gravitational constants can be off.
+Additionally, the small nature of $G$ means that minor errors in any input variables or rounding errors have a profound impact on the
+calculated force and gravitational constant. Moreover, the simulation only offers discrete input increments for distance and mass, whereas
+the scale (particularly for distance) is free to move at any point in the screen. Hence, the distance intervals may be slightly inaccurate
+as they depend on teh accurate placing of the two objects based on teh scale. Offering continuos distance inputs would offer a slight improvement.
+Due to the relatively high number of trials conducted, these errors are relatively negligible in finding proportionalities; however, they can significantly impact the calculation of $G$.
+Hence, $G$ was calculated using the default values for distance, ensuring that there would be no innacuracy of the data point.
 
 \end{document}
