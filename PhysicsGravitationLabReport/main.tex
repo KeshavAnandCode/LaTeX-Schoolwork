@@ -16,6 +16,7 @@
 \usepackage{placeins}
 \usepackage{float}
 
+\graphicspath{{images/}}
 
 
 % ---------- Word-style margins ----------
@@ -399,17 +400,65 @@ $m_1$ and $F_g$ can be graphed as follows.
 Observing Figure \ref{fig:m1graph}, there is a linear trend between the gravitational force and the mass of object 1.
 This can be represented by the proportionality:
 \[
-F_g \propto m_1
+F_g \propto m_1.
 \]
-Hence, the relationship can be described witht eh below equation, where $k_1$ is simply a constant:
+Hence, the relationship can be described with the below equation, where $k_1$ is simply a constant:
 
 \begin{equation}
 F_g = k_1 \times m_1
-\label{eq:grav_force}
+\label{eq:m1}
 \end{equation}
 
 Applying the same logic to Table \ref{tab:grav_m2} yields the following relationship between $F_g$ and $m_2$
 
+
+\begin{figure}[h!] % h! = “here” placement
+    \centering
+    \includegraphics[width=0.7\textwidth]{Force vs m2} % <-- your image file name
+    \caption{$F_g$ vs $m_2$ graphed}
+    \label{fig:m2graph}
+\end{figure}
+
+Note that again, there is a linear trend, implying 
+
+\[
+F_g \propto m_2.
+\]
+
+Hence, the relationship can be described with the below equation, where $k_2$ is simply another constant:
+
+\begin{equation}
+F_g = k_2 \times m_2.
+\label{eq:m2}
+\end{equation}
+
+Looking at equation \ref{eq:m1} and \ref{eq:m2}, they can be safely combined into one equation, where there is yet another constant of proportionality $k_3$:
+
+\begin{equation}
+F_g = k_3 (m_1 \times m_2).
+\label{eq:m1and2}
+\end{equation}
+
+Note, that when $m_1$ and $m_2$ are the same, equation \ref{eq:m1and2} simplifies to 
+
+\[
+F_g = k_3  \times m^2.
+\]
+
+Looking at Table \ref{tab:grav_equal}, this derived relationship can be verified by graphing as follows:
+
+
+
+\begin{figure}[h!] % h! = “here” placement
+    \centering
+    \includegraphics[width=0.7\textwidth]{Force vs Mass m1 m2} % <-- your image file name
+    \caption{$F_g$ vs mass of $m_1$ = $m_2$}
+    \label{fig:m1m2graph}
+\end{figure}
+
+
+As suggested by equation \ref{eq:m1and2}, there is a proportional quadratic relationship between the masses of the objects and the resulting gravitational force (see Figure \ref{fig:m1m2graph}). 
+Therefore, equation \ref{eq:m1and2} is validated by the simulation.
 
 
 \section*{Error Analysis}
